@@ -1,0 +1,149 @@
+/* Variables para facilitar cambios de color */
+:root {
+    --bg-color: #f6f6f6;
+    --text-main: #333;
+    --text-muted: #666;
+    --accent-color: #5d6161; /* Gris oscuro del botón */
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: var(--white);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--text-main);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-muted);
+    margin-left: 20px;
+    font-size: 0.9rem;
+}
+
+/* Hero Section */
+.hero-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search-container h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: var(--text-main);
+}
+
+.search-container p {
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+/* Formulario */
+.search-form {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    background: var(--white);
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.btn-verify {
+    background-color: var(--accent-color);
+    color: var(--white);
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.btn-verify:hover {
+    background-color: #4a4d4d;
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.footer.img {
+    height: 30px; 
+    width: auto;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para las páginas de información */
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.content-container h1 {
+    font-size: 2rem;
+    color: var(--text-main);
+    margin-bottom: 20px;
+}
+
+.content-container p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}

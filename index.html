@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaluma - Verificador de Confiabilidad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Kaluma</div>
+        <nav class="nav-links">
+            <a href="info.php?seccion=acerca">Acerca de</a>
+            <a href="info.php?seccion=contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="hero-section">
+        <section class="search-container">
+            <h1>Verificador de Confiabilidad de Sitios Web</h1>
+            <p>"Clic seguro, navegación tranquila."</p>
+
+            <form action="verificar.php" method="POST" class="search-form">
+                <div class="input-group">
+                    <span class="icon">🔗</span>
+                    <input type="url" name="url_sitio" placeholder="Pega aquí la URL a validar" required>
+                </div>
+                <button type="submit" class="btn-verify">Verificar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="brand-logo">
+            <img src="/KALUMA2.0/images/imgkaluma.jpg" >
+        </div>
+        <p>© 2025 ShieldSoft. Desarrollado en UTCJ.</p>
+    </footer>
+
+</body>
+
+</html>
