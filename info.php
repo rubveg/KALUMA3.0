@@ -31,7 +31,7 @@
             
             } elseif ($seccion == 'contacto') {
                 echo "<h1>Contacto</h1>";
-                echo "<p>¿Tienes alguna duda o quieres reportar un falso positivo? Estamos en Ciudad Juárez. Escríbenos a soporte@shieldsoft.com o llena nuestro formulario de atención.</p>";
+                echo "<p>¿Tienes alguna duda o quieres reportar un falso positivo? Estamos en Ciudad Juárez. Escríbenos a soporte@shieldsoft.com.</p>";
             
             } else {
                 // Mensaje por defecto si entran directo a info.php sin variables
@@ -45,7 +45,7 @@
 
     <footer class="footer">
         <div class="brand-logo">
-            <img src="/KALUMA2.0/images/imgkaluma.jpg" alt="ShieldSoft Logo" class="ShieldSoft-img">
+            <img src="/images/imgkaluma.jpg" alt="ShieldSoft Logo" class="ShieldSoft-img">
             <span>SHIELDSOFT</span>
         </div>
         <p>© 2025 ShieldSoft. Desarrollado en UTCJ.</p>
