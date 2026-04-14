@@ -27,7 +27,7 @@
             // 2. Evaluamos qué sección pidió el usuario y mostramos el HTML correspondiente
             if ($seccion == 'acerca') {
                 echo "<h1>Acerca de Kaluma</h1>";
-                echo "<p>Kaluma es un verificador de confiabilidad de sitios web desarrollado en la UTCJ. Nuestro objetivo es brindar a los usuarios una herramienta rápida y eficaz para navegar con tranquilidad, analizando las URL en tiempo real para detectar posibles amenazas.</p>";
+                echo "<p>Kaluma es un verificador de confiabilidad de sitios web desarrollado en la UTCJ. Nuestro objetivo es brindar a los usuarios una herramienta rápida y eficaz para realizar compras con tranquilidad, analizando las URL para detectar posibles amenazas.</p>";
             
             } elseif ($seccion == 'contacto') {
                 echo "<h1>Contacto</h1>";
